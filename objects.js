@@ -118,7 +118,7 @@ function addReview(book, reviewer, comment) {
     if (!book.reviews) {
       book.reviews = []; // Create an empty reviews array if it doesn't exist
     }
-  
+  //
     // Create a new review object
     const review = {
       reviewer: reviewer, // Set the reviewer property
